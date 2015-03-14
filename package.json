@@ -33,6 +33,9 @@
     "karma-mocha": "^0.1.10",
     "karma-mocha-reporter": "^1.0.1",
     "karma-phantomjs-launcher": "^0.1.4",
-    "mocha": "^2.2.1"
+    "karma-sinon": "^1.0.4",
+    "karma-sinon-chai": "^0.3.0",
+    "mocha": "^2.2.1",
+    "sinon": "^1.14.0"
   }
 }

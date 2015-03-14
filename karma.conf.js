@@ -2,7 +2,7 @@ module.exports = function(config) {
   config.set({
     basePath: '',
 
-    frameworks: ['mocha', 'chai'],
+    frameworks: ['mocha', 'chai', 'sinon-chai'],
 
     files: [
       'node_modules/angular/angular.js',
