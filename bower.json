@@ -1,0 +1,27 @@
+{
+  "name": "cf-socket-io",
+  "version": "0.0.1",
+  "homepage": "https://github.com/christian-fei/cf-socket-io",
+  "authors": [
+    "Christian Fei <crifei93@gmail.com>"
+  ],
+  "description": "socket.io module for AngularJS",
+  "main": "src/cf-socket-io.js",
+  "keywords": [
+    "angular",
+    "socket.io",
+    "websockets"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "cf-socket-io.sublime-project",
+    "circle.yml",
+    "karma.conf.js",
+    "package.json"
+  ]
+}
