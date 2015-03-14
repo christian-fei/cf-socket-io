@@ -4,7 +4,8 @@
   "description": "socket.io for AngularJS",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run --no-auto-watch"
+    "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run --no-auto-watch",
+    "test-watch": "./node_modules/karma/bin/karma start karma.conf.js --no-single-run --auto-watch"
   },
   "repository": {
     "type": "git",
