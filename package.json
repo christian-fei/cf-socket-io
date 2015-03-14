@@ -1,0 +1,25 @@
+{
+  "name": "ng-socket-io",
+  "version": "0.0.1",
+  "description": "socket.io for AngularJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christian-fei/ng-socket-io.git"
+  },
+  "keywords": [
+    "socket.io",
+    "socket",
+    "websocket",
+    "angular"
+  ],
+  "author": "Christian Fei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christian-fei/ng-socket-io/issues"
+  },
+  "homepage": "https://github.com/christian-fei/ng-socket-io"
+}
