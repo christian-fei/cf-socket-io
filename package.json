@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/christian-fei/cf-socket-io/issues"
   },
-  "homepage": "https://github.com/christian-fei/cf-socket-io"
+  "homepage": "https://github.com/christian-fei/cf-socket-io",
+  "devDependencies": {
+    "karma": "^0.12.31",
+    "karma-growl-reporter": "^0.1.1",
+    "karma-mocha": "^0.1.10",
+    "karma-mocha-reporter": "^1.0.1",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "mocha": "^2.2.1"
+  }
 }
