@@ -2,17 +2,20 @@ module.exports = function(config) {
   config.set({
     basePath: '',
 
-    frameworks: ['mocha'],
+    frameworks: ['mocha', 'chai'],
 
     files: [
-      'src/**/*.js'
+      'node_modules/angular/angular.js',
+      'node_modules/angular-mocks/angular-mocks.js',
+      'src/**/*.js',
+      'test/**/*.spec.js'
     ],
 
     exclude: [],
 
     preprocessors: {},
 
-    reporters: ['progress'],
+    reporters: ['growl','mocha'],
 
     port: 9876,
 

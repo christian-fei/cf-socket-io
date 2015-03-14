@@ -4,7 +4,7 @@
   "description": "socket.io for AngularJS",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma ."
+    "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run --no-auto-watch"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,11 @@
   },
   "homepage": "https://github.com/christian-fei/cf-socket-io",
   "devDependencies": {
+    "angular": "^1.3.14",
+    "angular-mocks": "^1.3.14",
+    "chai": "^2.1.1",
     "karma": "^0.12.31",
+    "karma-chai": "^0.1.0",
     "karma-growl-reporter": "^0.1.1",
     "karma-mocha": "^0.1.10",
     "karma-mocha-reporter": "^1.0.1",
