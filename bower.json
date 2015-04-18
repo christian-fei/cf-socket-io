@@ -1,6 +1,6 @@
 {
   "name": "cf-socket-io",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "homepage": "https://github.com/christian-fei/cf-socket-io",
   "authors": [
     "Christian Fei <crifei93@gmail.com>"
