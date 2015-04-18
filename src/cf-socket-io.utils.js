@@ -5,9 +5,7 @@ angular.module('cf-socket-io.utils',[])
     digestifyFn: digestifyFn
   }
   function decorate(obj){
-    console.log( '-- SocketIOUtils:decorate' )
     for(var prop in obj){
-      console.log( '-- SocketIOUtils:decorate', prop )
       if( obj[prop] instanceof Function ){
         digestifyFn(obj, prop)
       }
