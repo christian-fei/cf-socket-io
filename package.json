@@ -1,6 +1,6 @@
 {
   "name": "cf-socket-io",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "socket.io for AngularJS",
   "main": "index.js",
   "scripts": {
