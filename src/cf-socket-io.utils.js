@@ -16,6 +16,7 @@ angular.module('cf-socket-io.utils',[])
 
   function digestifyFn(obj, prop){
     var ref = obj[prop]
+    if( !ref ) return
     obj[prop] = function(){
       var self = this
       var args = Array.prototype.slice.apply(arguments)
