@@ -3,11 +3,6 @@ angular.module('cf-socket-io', ['cf-socket-io.utils'])
   return function Socket(path, options){
     var socket = SocketIO.connect(path, options || {})
     SocketIOUtils.decorate(socket)
-    if( options ){
-      if( options.scope ){
-        options.scope.$on('$destroy', socket.removeListener.bind(socket))
-      }
-    }
     return socket
   }
 })
